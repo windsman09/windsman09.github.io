@@ -15,7 +15,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  /* min-height : 2000px; */
+  min-height: 5000px;
 }
 
 /* Navbar */
@@ -36,7 +36,7 @@ body {
 .navbar .navbar-logo {
   font-size: 2rem;
   font-weight: 700;
-  color: #ffd700;
+  color: #fff;
   font-style: italic;
 }
 
@@ -133,7 +133,9 @@ body {
 .hero .content :hover {
   color: #7fff00;
 }
-
+.hero .content a:hover {
+  color: aqua;
+}
 .hero .content h1 {
   font-size: 5em;
   color: #fff;
@@ -168,17 +170,20 @@ body {
 
 /* About Section */
 
-.about {
+.about,
+.menu h2 {
   padding: 6rem 7% 1.4rem;
 }
 
-.about h2 {
+.about h2,
+.menu h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
 }
 
-.about h2 span {
+.about h2 span,
+.menu h2 span {
   color: var(--primary);
 }
 
@@ -187,17 +192,29 @@ body {
 }
 
 .about .row .about-img {
-  flex: 0.1 0.1 45rem;
+  flex: 0.1 0.1 50rem;
+  border-radius: 5%;
+  overflow: hidden;
+  margin: 0.5%;
 }
 
 .about .row .about-img img {
+  height: 100%;
   width: 100%;
+  object-position: center;
+  object-fit: cover;
 }
 
 .about .row .content {
-  flex: 1 1 35;
-  padding: 0 1rem;
+  flex: 0.1 0.1 45rem;
+  padding: 0 3rem;
+  background-color: blueviolet;
+  width: 100%;
+  border-radius: 5%;
+  overflow: auto;
+  margin: 0.5%;
 }
+
 /* Media Queries */
 
 /* Laptop */
@@ -248,7 +265,7 @@ body {
   }
 
   .about .row .about-img img {
-    height: 24rem;
+    height: 38rem;
     object-fit: cover;
     object-position: center;
   }
@@ -262,6 +279,9 @@ body {
 
   .about .row content p {
     font-size: 1.5rem;
+  }
+  .about .row .about-img img {
+    width: auto;
   }
 }
 
