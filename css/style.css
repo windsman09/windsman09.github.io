@@ -171,19 +171,22 @@ body {
 /* About Section */
 
 .about,
-.menu h2 {
+.menu,
+.contact {
   padding: 6rem 7% 1.4rem;
 }
 
 .about h2,
-.menu h2 {
+.menu h2,
+.contact h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
 }
 
 .about h2 span,
-.menu h2 span {
+.menu h2 span,
+.contact h2 span {
   color: var(--primary);
 }
 
@@ -213,6 +216,53 @@ body {
   border-radius: 5%;
   overflow: auto;
   margin: 0.5%;
+}
+/* Menu Section */
+.menu h2,
+.contact h2 {
+  margin-bottom: 0.5rem;
+}
+.menu p,
+.contact p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-size: medium;
+  font-weight: 200;
+  line-height: 1;
+  color: rgb(55, 241, 8);
+}
+.menu .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.menu .row .menu-card {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.menu .row .menu-card img {
+  border-radius: 50%;
+  width: 40%;
+}
+.menu .row .menu-card.menu-card title {
+  margin: 1rem auto 1rem;
+}
+
+/* Contact Section */
+.contact .row {
+  display: flex;
+  margin-top: 2rem;
+  background-color: #222;
+  flex-wrap: wrap;
+}
+
+.contact .row .maps {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* Media Queries */
