@@ -354,7 +354,7 @@ footer .credit p {
     transform: scaleX(0.2);
   }
   .hero {
-    min-height: 65vh;
+    min-height: 80vh;
   }
   .about .row {
     flex-wrap: wrap;
