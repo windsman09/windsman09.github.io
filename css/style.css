@@ -63,6 +63,10 @@ body {
   transform: scaleX(1);
 }
 
+.navbar .navbar-nav span {
+  color: var(--primary);
+}
+
 .navbar .navbar-nav a {
   color: #fff;
   display: inline-block;
@@ -176,6 +180,9 @@ body {
 .menu,
 .contact {
   padding: 6rem 1% 1.4rem;
+}
+.menu {
+  background-color: #778899;
 }
 
 .about h2,
