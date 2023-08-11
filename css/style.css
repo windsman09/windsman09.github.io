@@ -184,6 +184,9 @@ body {
 .menu {
   background-color: #778899;
 }
+.about {
+  margin-bottom: 5 rem;
+}
 
 .about h2,
 .menu h2,
