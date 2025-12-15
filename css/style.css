@@ -204,7 +204,7 @@ body {
 
 .about .row {
   display: flex;
-  /* justify-content: center;*/
+  justify-content: center;
   flex-direction: row;
 }
 
@@ -214,25 +214,28 @@ body {
   overflow: hidden;
 }
 
-.about .row .about-img img {
+/*.about .row .about-img img {
   height: 100%;
   width: 100%;
   object-position: center;
   object-fit: fill;
+}*/
+.about .row .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 70px;
 }
 
 .about .row .content img {
-  flex: 0 100 50rem;
-  object-fit: fill;
-  background-color: blueviolet;
+  max-width: 100rem;
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 5%;
-  overflow: auto;
-  margin-left: 10px;
-  margin-right: 50px;
-  margin-bottom: 20;
+  object-fit: cover;
 }
+
 /* Menu Section */
 .menu h2,
 .contact h2 {
