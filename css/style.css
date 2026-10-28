@@ -156,7 +156,7 @@ body {
 .hero .content p {
   font-size: 1.6rem;
   margin-top: 1rem;
-  line-height: 1, 4;
+  line-height: 1.4;
   font-weight: 0;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   mix-blend-mode: difference;
@@ -185,7 +185,7 @@ body {
   background-color: #778899;
 }
 .about {
-  margin-bottom: 5 rem;
+  margin-bottom: 5rem;
 }
 
 .about h2,
@@ -231,7 +231,7 @@ body {
   overflow: auto;
   margin-left: 10px;
   margin-right: -320px;
-  margin-bottom: 20;
+  margin-bottom: 20px;
 }
 /* Menu Section */
 .menu h2,
@@ -263,7 +263,7 @@ body {
   border-radius: 50%;
   width: 40%;
 }
-.menu .row .menu-card.menu-card title {
+.menu .row .menu-card-title {
   margin: 1rem auto 1rem;
 }
 
